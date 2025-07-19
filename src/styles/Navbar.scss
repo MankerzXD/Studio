@@ -44,6 +44,8 @@
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s;
+    width: 90%;
+    text-align: end;
 
     &:hover {
       color: #fff;
@@ -53,8 +55,8 @@
   @media (max-width: 768px) {
     position: absolute;
     top: 60px;
-    right: 20px;
-    background-color: #000;
+    width: 100%;
+    background-color: #0000007e;
     border: 1px solid #111;
     flex-direction: column;
     padding: 12px;
