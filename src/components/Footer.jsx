@@ -43,16 +43,12 @@ export default function Footer() {
 
       <div className="footer__metrics">
         <div className="footer__metric">
-          <p className="footer__metric-number">+211</p>
+          <p className="footer__metric-number">0</p>
           <p>Proyectos lanzados</p>
         </div>
         <div className="footer__metric">
-          <p className="footer__metric-number">+88</p>
-          <p>Apps y sistemas</p>
-        </div>
-        <div className="footer__metric">
-          <p className="footer__metric-number">+79</p>
-          <p>Clientes felices</p>
+          <p className="footer__metric-number">0</p>
+          <p>Apps y Webs</p>
         </div>
       </div>
 
