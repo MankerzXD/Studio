@@ -4,11 +4,16 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #000000 fixed;
+    background: #000000;
     text-align: center;
     padding: 0 20px;
     font-family: 'Nunito Sans', sans-serif;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1
+    ;
     &-content {
         max-width: 800px;
     }
@@ -51,6 +56,7 @@
             border-radius: 4px;
             cursor: pointer;
             transition: all 0.3s ease;
+            text-decoration: none;
 
             &:first-child {
                 background-color: #1a1a1a;

@@ -1,3 +1,4 @@
+//Hero
 import React, { useState, useEffect } from 'react';
 import '../styles/Hero.scss';
 
@@ -47,7 +48,8 @@ export default function Hero() {
         </p>
         <div className="hero-cta">
           <button className="cta-button">Conoce nuestro trabajo</button>
-          <button className="cta-button secondary">Hablemos</button>
+          <a href="https://wa.me/541123473586?text=Hola%2C%20estoy%20interesado%20en%20sus%20servicios%2C%20%C2%BFpodr%C3%ADan%20ayudarme%3F
+" target="_blank" className="cta-button secondary">Hablemos</a>
         </div>
       </div>
     </div>
