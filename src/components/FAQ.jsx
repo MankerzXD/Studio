@@ -3,7 +3,7 @@ import "../styles/FAQ.scss";
 
 const faqs = [
   {
-    question: "¿Cuánto tiempo tarda en desarrollarse una página web?",
+    question: "¿Cuánto tiempo tarda en desarrollarse una página web? ",
     answer:
       "Depende de la complejidad del proyecto, pero en promedio entre 2 a 6 semanas.",
   },
